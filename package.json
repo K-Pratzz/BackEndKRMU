@@ -1,0 +1,21 @@
+{
+  "name": "backendkrmu",
+  "version": "1.0.0",
+  "description": "this is my app 1",
+  "homepage": "https://github.com/K-Pratzz/BackEndKRMU#readme",
+  "bugs": {
+    "url": "https://github.com/K-Pratzz/BackEndKRMU/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-Pratzz/BackEndKRMU.git"
+  },
+  "license": "ISC",
+  "author": "Kumari Pratibha",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
