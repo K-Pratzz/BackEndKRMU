@@ -28,3 +28,22 @@
 
 // require('dotenv').config(); // config provides initial configuration from .env file it means that it will read the .env file and set the environment variables accordingly
 // console.log('PORT:', process.env.PORT);
+
+const http=require('http');
+const server= http.createServer((req,res)=>{
+  if (req.url==='/' ){
+    res.writeHead(200,{'Content-Type':'text/html'});
+    res.write('<h1 style="color: blue;">Hello from the home page</h1>');
+    res.end();
+  }else{
+    res.writeHead(404,{'Content-Type':'text/html'});
+    res.write('<h1 style="color: red;">Page Not Found</h1>');
+    res.end(); //this will end the response and send it to the client  and stops the cycle
+  }
+});
+require('dotenv').config();
+const Port=process.env.PORT || 3000;
+
+server.listen(Port,()=>{
+  console.log(`http://localhost:${Port}`);
+});
