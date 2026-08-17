@@ -16,3 +16,7 @@ what are environment variables
 process helps to extract env variables (process.exit())
 npm install dotenv
 rest api
+GET is designed to retrieve data from a server without changing anything on the server.
+POST is designed to send data to a server to create or update a resource.
+PATCH updates, DELETE
+getby id query and all
