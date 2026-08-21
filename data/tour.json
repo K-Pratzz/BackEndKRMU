@@ -1,0 +1,23 @@
+[
+  {
+    "id": 2,
+    "name": "MANALI ADV",
+    "destination": "MANALI",
+    "days": 4,
+    "price": 11000
+  },
+  {
+    "id": 3,
+    "name": "sdff",
+    "destination": "ddfvdv",
+    "days": 4,
+    "price": 15000
+  },
+  {
+    "id": 4,
+    "name": "KERALA BACKWATERS",
+    "destination": "KERALA",
+    "days": 6,
+    "price": 18000
+  }
+]

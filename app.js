@@ -71,35 +71,50 @@
 // app.listen(4000, () => {
 //   console.log(`Server is running on http://localhost:4000`);
 
+// const express = require('express');
+// const app = express();
+// const packages = require('./data/tour.js');
+
+// app.get('/packages', (req, res) => {
+//   const des = req.query.des;
+//   console.log('Destination query parameter:', des); // Log the value of the 'des' query parameter
+//   if (des) {
+//     const filteredPackages = packages.filter(pkg => pkg.destination.toLowerCase() === des.toLowerCase());
+//     res.json(filteredPackages);
+//   }
+//   res.json(packages);
+// });
+
+// app.get('/packages/1', (req, res) => {
+//   res.send('This is the package with ID 1');
+// });
+
+// app.get('/packages/:id', (req, res) => {
+//   const id = req.params.id; //for example, if the request is /packages/1, then id will be '1'
+//   const package = packages.find(pkg => pkg.id === parseInt(id)); //selects the first apperarance only
+//   if (package) {
+//     res.json(package);
+//   } else {
+//     res.status(404).json({ message: 'Package not found' });
+//   }   
+// });
+
+
+// app.listen(4000, () => {
+//   console.log(`Server is running on http://localhost:4000`);
+// });
+
+
 const express = require('express');
 const app = express();
-const packages = require('./data/tour.js');
+const tourRouter = require('./router/tourRouter');
 
-app.get('/packages', (req, res) => {
-  const des = req.query.des;
-  console.log('Destination query parameter:', des); // Log the value of the 'des' query parameter
-  if (des) {
-    const filteredPackages = packages.filter(pkg => pkg.destination.toLowerCase() === des.toLowerCase());
-    res.json(filteredPackages);
-  }
-  res.json(packages);
-});
+app.use(express.json());
 
-app.get('/packages/1', (req, res) => {
-  res.send('This is the package with ID 1');
-});
-
-app.get('/packages/:id', (req, res) => {
-  const id = req.params.id; //for example, if the request is /packages/1, then id will be '1'
-  const package = packages.find(pkg => pkg.id === parseInt(id)); //selects the first apperarance only
-  if (package) {
-    res.json(package);
-  } else {
-    res.status(404).json({ message: 'Package not found' });
-  }   
-});
+app.use('/tours', tourRouter);
+app.use('/users',userRouter);
 
 
 app.listen(4000, () => {
-  console.log(`Server is running on http://localhost:4000`);
+  console.log('Server is running on http://localhost:4000');
 });
