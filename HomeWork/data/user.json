@@ -1,0 +1,126 @@
+[
+  {
+    "name": "lp",
+    "age": 79,
+    "roll": 21,
+    "type": "employee"
+  },
+  {
+    "name": "ou",
+    "age": 16,
+    "roll": 45,
+    "type": "senior"
+  },
+  {
+    "name": "ax",
+    "age": 22,
+    "roll": 3,
+    "type": "student"
+  },
+  {
+    "name": "mr",
+    "age": 45,
+    "roll": 14,
+    "type": "employee"
+  },
+  {
+    "name": "zt",
+    "age": 68,
+    "roll": 52,
+    "type": "senior"
+  },
+  {
+    "name": "jb",
+    "age": 20,
+    "roll": 7,
+    "type": "student"
+  },
+  {
+    "name": "qvv",
+    "age": 34,
+    "roll": 88,
+    "type": "employee"
+  },
+  {
+    "name": "hn",
+    "age": 71,
+    "roll": 12,
+    "type": "senior"
+  },
+  {
+    "name": "dc",
+    "age": 18,
+    "roll": 2,
+    "type": "student"
+  },
+  {
+    "name": "ek",
+    "age": 51,
+    "roll": 33,
+    "type": "employee"
+  },
+  {
+    "name": "wf",
+    "age": 65,
+    "roll": 99,
+    "type": "senior"
+  },
+  {
+    "name": "yg",
+    "age": 21,
+    "roll": 15,
+    "type": "student"
+  },
+  {
+    "name": "vh",
+    "age": 29,
+    "roll": 41,
+    "type": "employee"
+  },
+  {
+    "name": "rb",
+    "age": 82,
+    "roll": 60,
+    "type": "senior"
+  },
+  {
+    "name": "tc",
+    "age": 17,
+    "roll": 8,
+    "type": "student"
+  },
+  {
+    "name": "sm",
+    "age": 41,
+    "roll": 27,
+    "type": "employee"
+  },
+  {
+    "name": "ix",
+    "age": 74,
+    "roll": 39,
+    "type": "senior"
+  },
+  {
+    "name": "uz",
+    "age": 23,
+    "roll": 19,
+    "type": "student"
+  },
+  {
+    "name": "fn",
+    "age": 38,
+    "roll": 5,
+    "type": "employee"
+  },
+  {
+    "name": "GOA LUXURY ESCAPE",
+    "price": 1500
+  },
+  {
+    "name": "kp",
+    "age": 19,
+    "roll": 1,
+    "type": "student"
+  }
+]
