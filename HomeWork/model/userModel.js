@@ -3,7 +3,7 @@ const path = require('path');
 const filePath = path.join(__dirname, '../data/user.json');
 
 const getAll = () => {
-  const data = fs.readFileSync(filePath, 'utf-8'); //this line reads the contents of the user.json file synchronously and stores it in the variable data. The 'utf-8' encoding is specified to ensure that the data is read as a string.
+  const data = fs.readFileSync(filePath, 'utf-8');
   return JSON.parse(data); //this will parse the JSON string data into a JavaScript object and return it
 };
 

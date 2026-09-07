@@ -1,22 +1,2 @@
-internal or self modularisation
-core modules
-node is run time env for js 
-external modules (third party) / internal module ( we create)
-module is bunch of code used for reusability
-
-es6 module (import) and commonJS use require
-"type": "module", //commonjs or module in package.json
-
-either use and dependencies based on common.js or es6
-
-path module rpovides platform independency
-
-__dir name provides root location from where it is 
-what are environment variables
-process helps to extract env variables (process.exit())
-npm install dotenv
-rest api
-GET is designed to retrieve data from a server without changing anything on the server.
-POST is designed to send data to a server to create or update a resource.
-PATCH updates, DELETE
 getby id query and all
+cors middleware

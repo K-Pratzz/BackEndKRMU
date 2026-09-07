@@ -112,7 +112,6 @@ const tourRouter = require('./router/tourRouter');
 app.use(express.json());
 
 app.use('/tours', tourRouter);
-app.use('/users',userRouter);
 
 
 app.listen(4000, () => {

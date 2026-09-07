@@ -5,8 +5,8 @@ const getAllUsers=(req,res)=>{
 }
 
 const getUserByRoll = (req, res) => {
-  const id = parseInt(req.params.roll, 10);
-  const user = model.getByRoll(id); // Fixed: was model.getById
+  const id = parseInt(req.params.roll, 10); //10 for decimal number system
+  const user = model.getByRoll(id);
   if (user) {
     res.status(200).json(user);
   } else {
