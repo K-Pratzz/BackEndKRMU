@@ -1,2 +1,4 @@
 getby id query and all
 cors middleware
+salt 10 or 11 not more, makes it more complex
+authroisation token and refresh token
