@@ -2,8 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const tourController = require('../controller/tourController');
-const {authMiddleware, restrictTo} = require('../middleware/authMiddleware');
-
+const {authMiddleware,restrictTo} = require('../middleware/authMiddleware');
 // Apply authentication middleware to all routes
 //router.use(authMiddleware);
 // GET all tours
